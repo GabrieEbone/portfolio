@@ -1,0 +1,120 @@
+.content
+  @extend %flex
+  @extend %flC
+  padding: 0 15%
+  h1
+    color: $sec
+  h2
+    text-align: center
+    width: 70%
+    font-size: 20px
+    font-weight: 500
+  
+  img
+    width: 500px
+    height: 175px
+
+  #pc
+    img 
+      width: 747px
+      height: 298.5px 
+
+#boasVindas
+  background: $tri
+  margin-top: -5px
+  @extend %flex
+  @extend %flC
+  
+  h1
+    color: $tex
+    text-align: center
+
+  p
+    padding: 0 20%
+    text-align: center
+    font-weight: 600
+    color: $tex 
+
+.dev
+  @extend %flex
+  margin-top: -200px
+  width: 700px
+  height: 500px
+  background: white
+  border-radius: 50px
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5)
+
+  .info
+    width: 233.33px
+    height: 100%
+    border-right: 1px #969696 solid
+    @extend %flex
+    @extend %flC
+
+    img
+      width: 68.5px
+      height: 59.5px
+      color: black
+    
+    h1
+      font-size: 20px
+
+    p
+      text-align: center
+      font-weight: 500
+      padding: 10%
+
+    h2
+      font-weight: 700
+      color: $tri
+      font-size: 10px
+
+    h3
+      font-size: 10px
+      font-weight: normal
+    
+    li
+      font-size: 10px
+      font-weight: normal
+      display: block
+      margin-bottom: 10px
+
+.info:last-child
+  border-right: 0
+
+#trab
+
+  @extend %flex
+  @extend %flC
+  text-align: center
+  
+  p
+    font-weight: 400
+
+  #recents
+    width: 80%
+    display: grid
+    grid-template-columns: 1fr  1fr
+    align-self: flex-end
+    .trab
+      width: 253px
+      margin: 2.5%  
+      height: 154px
+      background: #7510F7
+      border-radius: 18px
+      @extend %flex
+
+      a
+        @extend %flex
+        text-decoration: none
+        color: $tex
+        width: 50%
+        background: #AA6EDB
+        padding: 5%
+        border-radius: 15px
+        margin-top: 80px
+        transition: 1s ease    
+          
+      a:hover
+        transition: 1s ease      
+        background:  #65388A

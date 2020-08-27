@@ -1,0 +1,27 @@
+nav
+  padding: 2.5% 5%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  
+  img
+    width: 95px
+    height: 55px
+
+  a
+    text-decoration: none
+    color: $prim
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 150px
+    font-size: $ftM
+    height: 35px
+    border-radius: 37px
+    border: 2.5px $prim solid
+    @extend %transEase
+
+    &:hover
+      @extend %transEase
+      background-color: $prim
+      color: white

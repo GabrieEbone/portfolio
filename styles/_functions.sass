@@ -1,0 +1,9 @@
+$array : ( 1, 2, 3, 5, 7, 8, 10, 15)
+  
+@each $i in $array
+  .mt-#{$i}
+    margin-top: #{$i}rem
+  .mb-#{$i}
+    margin-bottom: #{$i}rem
+  .ml-#{$i}
+    margin-left: #{$i}rem
