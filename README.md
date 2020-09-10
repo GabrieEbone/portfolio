@@ -1,4 +1,5 @@
-# portfolio
+# Portfolio
+[EN]
 My personal portfolio, simple as that.
 
 [PT-BR]
